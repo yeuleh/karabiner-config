@@ -44,8 +44,8 @@
             "f8": "play_or_pause",
             "f9": "fastforward"
         },
-        "name": "leon's profile",
-        "selected": true,
+        "name": "leon's profile for us",
+        "selected": false,
         "simple_modifications": {
             "application": "right_command"
         },
@@ -53,5 +53,60 @@
             "caps_lock_delay_milliseconds": 0,
             "keyboard_type": "ansi"
         }
+    }, {
+        "complex_modifications": {
+            "rules": [{
+                "manipulators": [{
+                    "description": "Change caps_lock to command+control+option+shift.",
+                    "from": {
+                        "key_code": "caps_lock",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [{
+                        "key_code": "left_shift",
+                        "modifiers": [
+                            "left_command",
+                            "left_control",
+                            "left_option"
+                        ]
+                    }],
+                    "type": "basic"
+                }]
+            }]
+        },
+        "devices": [],
+        "fn_function_keys": {
+            "f1": "display_brightness_decrement",
+            "f10": "mute",
+            "f11": "volume_decrement",
+            "f12": "volume_increment",
+            "f2": "display_brightness_increment",
+            "f3": "mission_control",
+            "f4": "launchpad",
+            "f5": "illumination_decrement",
+            "f6": "illumination_increment",
+            "f7": "rewind",
+            "f8": "play_or_pause",
+            "f9": "fastforward"
+        },
+        "name": "leons profile for jis",
+        "selected": true,
+        "simple_modifications": {
+            "caps_lock": "fn",
+            "international1": "delete_forward",
+            "international3": "grave_accent_and_tilde",
+            "japanese_eisuu": "left_control",
+            "japanese_kana": "right_control",
+            "left_control": "caps_lock"
+        },
+        "virtual_hid_keyboard": {
+            "caps_lock_delay_milliseconds": 0,
+            "keyboard_type": "ansi"
+        }
+
     }]
 }
