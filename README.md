@@ -17,27 +17,27 @@ There are 2 profiles for us layout keyboard and jis layout keyboard.
 For US keyborad, there are only a few keys are remapped.
 
 #### 1. Modifier keys
-* **App** key (only exist in some keyboards, like my filco minilar air) to **Command**
+* **App** key (only exist in some keyboards, like my filco minilar air) -> **Command**
 
 #### 2. Hyper key
-* **Capslock** to **Hyper** key(Command+Control+Option+Shift)
+* **Capslock** -> **Hyper** key(Command+Control+Option+Shift)
 
 ### JIS
 Remapped to US layout and some modifier keys are also remapped.
 
 #### 1. Normal keys
-* **¥** to **``**
-* **@** to **[**
-* **[** to **]**
-* **]** to **¥**
-* **:** to **'**
-* **_** to **Delete Forward** key
+* **¥** -> **`**
+* **@** -> **[**
+* **[** -> **]**
+* **]** -> **¥**
+* **:** -> **'**
+* **_** -> **Delete Forward** key
 * and all the marks on number keys are remapped to keys same as US layout
 
 #### 2. Modifier keys
-* **Capslock** to **Control**
-* **EISU** to **Fn**
-* **KANA** to **Control**
+* **Capslock** -> **Control**
+* **EISU** -> **Fn**
+* **KANA** -> **Control**
 
 #### 3. Hyper key
-* **Left Control** to **Hyper** key(Command+Control+Option+Shift)
+* **Left Control** -> **Hyper** key
