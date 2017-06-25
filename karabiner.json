@@ -96,10 +96,10 @@
         "name": "leons profile for jis",
         "selected": true,
         "simple_modifications": {
-            "caps_lock": "fn",
+            "caps_lock": "left_control",
             "international1": "delete_forward",
             "international3": "grave_accent_and_tilde",
-            "japanese_eisuu": "left_control",
+            "japanese_eisuu": "fn",
             "japanese_kana": "right_control",
             "left_control": "caps_lock"
         },
